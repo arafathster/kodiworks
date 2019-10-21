@@ -23,7 +23,7 @@ import HTMLParser
 class tyogi(Scraper):
     def __init__(self):
         Scraper.__init__(self)
-        self.bu = 'http://tamilyogi.fm/home/'
+        self.bu = 'http://tamilyogi.vip/home/'
         self.icon = self.ipath + 'tyogi.png'
     
     def get_menu(self):
